@@ -1,6 +1,80 @@
 body{
-    display: flex;;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #fff7f3;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header{
+
+.header-wrap{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-wrap a{
+    text-decoration-line: none;
+    color: #000000;
+}
+
+.header-wrap .sing-up a{
+    color: #FE7D4E;
+}
+
+.highlight{
+    color: #FE7D4E;
+}
+
+.hero-banner-wrap{
+    display: flex;
     justify-content: center;
+    text-align: center;
+    height: 600px;
+    background-image: url(img/hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+
+.hero-banner-text{
+    padding: 255px;
+}
+
+.secondhandbooks{
+    display: flex;
+    justify-content: center;
+    background-color: #fff7f3;
+    height: 750px;
+}
+
+.sbh-wrap{
+    padding: 25px 25px 25px 25px;
+}
+
+.bookclup{
+    background-image: url(img/Cover-Bogklub.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 600px;
+}
+.bookclup-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.bookclup-wrap a{
+    text-decoration: none;
+    margin: 250px;
+    color: #ffffff;
+    border: solid #FE7D4E;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #FE7D4E;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
