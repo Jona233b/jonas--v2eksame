@@ -16,15 +16,35 @@ body{
     color: #000000;
 }
 
-.header-wrap .sing-up a{
+.header-wrap .sign-up a{
     color: #FE7D4E;
 }
+
+.sign-up{
+    margin: 3%;
+    border: solid #dddddd;
+    border-radius: 50px;
+    background-color: #dddddd;
+    box-shadow: 10px 10px 30px 1px #332121;
+}
+
 
 .highlight{
     color: #FE7D4E;
 }
 
-.hero-banner-wrap{
+.lowlight{
+    color: #000000
+}
+
+.header-links{
+    margin-top: 3%;
+    margin-bottom: auto;
+}
+
+
+
+.hero-banner{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -36,8 +56,19 @@ body{
     color: #ffffff;
 }
 
-.hero-banner-text{
-    padding: 255px;
+.hero-banner-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-banner-text1{
+    width: 45%;
+}
+
+.hero-banner-text2{
+    width: 50%;
 }
 
 .secondhandbooks{
@@ -49,6 +80,64 @@ body{
 
 .sbh-wrap{
     padding: 25px 25px 25px 25px;
+    width: auto;
+}
+
+.book-link{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    padding-bottom: 5px;
+
+}
+
+.books-nav img{
+    margin: 15px;
+    box-shadow: 10px 10px 30px 1px #332121;
+}
+
+.bookofthemonth{
+    height: 35%;
+}
+
+.bookofthemonth-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.bookofthemonth-text{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 125px;
+    background-color: #FeF2fe;
+}
+
+.bookofthemonth-order{
+    display: flex;
+    background-color: #FEFDF9;
+    padding: 5%;
+}
+
+.bookofthemonth-img{
+    margin: 5%;
+    box-shadow: 10px 10px 30px 1px #332121;
+
+}
+
+.bookofthemonth-order-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bookofthemonth-order-text a{
+    color: #ffffff;
+    border: solid #FE7D4E;
+    border-radius: 50px;
+    padding: 15px;
+    background-color: #FE7D4E;
+    box-shadow: 10px 10px 30px 1px #000000;    
 }
 
 .bookclup{
@@ -71,10 +160,25 @@ body{
     border-radius: 50px;
     padding: 15px;
     background-color: #FE7D4E;
+    box-shadow: 10px 10px 30px 1px #000000;
 }
 
 footer{
     display: flex;
     justify-content: center;
+}
+
+.foot-wrap{
+    display: flex;
     flex-direction: row;
+}
+
+.foot-frist{
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-second{
+    display: flex;
+    flex-direction: column;
 }
