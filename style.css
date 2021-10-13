@@ -22,10 +22,11 @@ body{
 
 .sign-up{
     margin: 3%;
-    border: solid #dddddd;
+    border: 10px solid #dddddd;
     border-radius: 50px;
     background-color: #dddddd;
     box-shadow: 10px 10px 30px 1px #332121;
+    text-align: center;
 }
 
 
@@ -131,6 +132,11 @@ body{
     justify-content: center;
 }
 
+.bookofthemonth-text a{
+    text-decoration: none;
+    color: #707070;
+}
+
 .bookofthemonth-order-text a{
     color: #ffffff;
     border: solid #FE7D4E;
@@ -165,7 +171,7 @@ body{
 
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .foot-wrap{
@@ -176,9 +182,14 @@ footer{
 .foot-frist{
     display: flex;
     flex-direction: column;
+
 }
 
 .foot-second{
     display: flex;
     flex-direction: column;
+}
+
+.foot-links .links-wrap a{
+    color: #FE7D4E;
 }
