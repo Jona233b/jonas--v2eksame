@@ -1,3 +1,28 @@
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:900px){
+    .books-nav{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
     
+    .bookofthemonth-content{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bookofthemonth-text{
+        width: auto;
+    }
+
+    .bookofthemonth-order{
+        flex-wrap: wrap;
+    }
+
+    .bookclup{
+        background-position: left;
+    }
+
+    .foot-img{
+        display: none;
+    }
 }
